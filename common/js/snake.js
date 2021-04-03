@@ -67,7 +67,7 @@ const enqueue = (state, move) => {
     return state
 }
 
-export { EAST, NORTH, SOUTH, WEST, initialState, enqueue, next }
+export { initialState, enqueue, next }
 
 //takes a state and return a new state
 //it's like the way to get the next state when we pass the functionality that will update the current state
