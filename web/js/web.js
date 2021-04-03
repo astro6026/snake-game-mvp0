@@ -10,7 +10,7 @@ let state = initialState()
 const x = c=> Math.round(c* canvas.width/state.cols)
 const y = r => Math.round(r* canvas.height/state.rows)
 
-//Controlling the graphics
+//Controlling the graphics - Using Canvas to draw the snake, apple and indicator for crash
 const draw = () => {
     //clear
     ctx.fillStyle = '#232323'
