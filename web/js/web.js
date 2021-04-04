@@ -1,5 +1,5 @@
-import { initialState, enqueue, next } from '../../common/js/snake.js'
-import { NORTH, SOUTH, EAST, WEST } from '../../common/js/constants.js'
+import { initialState, enqueue, next } from './snake.js'
+import { NORTH, SOUTH, EAST, WEST } from './constants.js'
 
 const canvas = document.getElementById('canvas')
 const ctx = canvas.getContext('2d')
