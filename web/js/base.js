@@ -16,7 +16,7 @@ const rnd = min => max => Math.floor(Math.random() * max) + min
 const spec = o => x => Object.keys(o)
     .map(k => objOf(k)(o[k](x)))
     .reduce((acc, o) => Object.assign(acc, o))
-module.exports = {
+export {
     adjust,
     dropFirst,
     dropLast,
